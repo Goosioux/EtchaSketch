@@ -1,1 +1,1 @@
-# EtchaSketch
+Creating an EtchaSketch. My knowledge feels a bit sketchy and maybe this will help

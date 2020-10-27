@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.resetBtn {
+    display: block;
+    margin: 30px auto;
+    width: 100px;
+    height: 40px;
+    background-color: #404040;
+    color: #d9d9d9;
+    border: none;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #262626;
+    cursor: pointer;
+}
+.container {
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-gap: 0px;
+    margin: auto;
+}
+div.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+div.hovered {
+    background-color: black;
+}
